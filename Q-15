@@ -1,0 +1,3 @@
+#Convert Fahrenheit into celcius. C = 5/9 * (F – 32)
+fahrenheit = int(input("Enter Fahrenheit: "))
+print("Celsius:", (fahrenheit - 32) * 5 / 9)

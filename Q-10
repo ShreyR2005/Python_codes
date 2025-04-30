@@ -1,0 +1,3 @@
+#Convert dollars into pound where 1 $ = 48 Rs. And 1 pound = 70 Rs
+dollars = int(input("Enter dollars: "))
+print("Pounds:", (dollars * 48) / 70)

@@ -1,0 +1,4 @@
+#Calculate area & perimeter of a square. A = L^2, P = 4L
+length = int(input("Enter length of square: "))
+print("Area:", length ** 2)
+print("Perimeter:", 4 * length)

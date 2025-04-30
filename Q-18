@@ -1,0 +1,5 @@
+#Calculate area & perimeter of a rectangle. A = L*B, P = 2 (L+B)
+length = int(input("Enter length of rectangle: "))
+breadth = int(input("Enter breadth of rectangle: "))
+print("Area:", length * breadth)
+print("Perimeter:", 2 * (length + breadth))

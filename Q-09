@@ -1,0 +1,3 @@
+#Convert Rs. into dollars where 1 $ = 48 Rs
+rupees = int(input("Enter rupees: "))
+print("Dollars:", rupees / 48)

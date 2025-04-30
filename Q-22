@@ -1,0 +1,3 @@
+#Calculate net sales where net sales = gross sales – 10% discount of gross sales
+gross_sales = int(input("Enter gross sales: "))
+print("Net Sales:", gross_sales - (gross_sales * 0.10))
